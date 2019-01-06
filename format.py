@@ -16,8 +16,8 @@ for i in s:
 		not_print = True
 	if i != "\n" and enter_flag and not_print:
 		not_print = False	
-		print("**", end="")	
+		print("__", end="")	
 	print(i, end="")	
 	if i == "：" and enter_flag:
 		enter_flag = False
-		print("**", end="")			
+		print("__", end="")			
